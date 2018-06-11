@@ -1,0 +1,50 @@
+Types of Mathematical Datatypes
+===================================================
+Two main types of numbers:
+1. Integer : 1, 34, 9999
+2. Floating point : 3.14, -8.9 , 1.0
+
+Other two types are
+3. Complex
+4. Long
+
+A floating point number takes more space in memory than an integer
+
+
+type function helps us to find out type of number
+e.g type(1.0)
+<class 'float'>
+
+
+A math between Integer and FLoat returns a Float
+Integer + Float = Float
+
+
+
+Common Mathematical Opearations:
+=======================================
+** -> Exponentiation    e.g. 2**3=8 , 49**0.5=7
+%  -> Modulo		    e.g. 10%3=1
+// -> Integer Division  e.g. 10//3=3
+
+
+Divison:
+In python division always returns a float
+1/2 = 0.5
+
+Order of operations:
+=============================================
+
+order is P.E.M.D.A.S.
+
+Parenthesis
+Exponentiation
+Multiplication
+Division
+Addition
+Subtraction
+
+
+Comments
+================================================
+# is used for single line commnets
