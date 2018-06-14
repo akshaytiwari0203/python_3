@@ -1,0 +1,169 @@
+http://python.slides.com/colt/oop-21
+
+Variable -> A named symbol that hold value
+
+How to assign variables
+=============================================
+x = 10
+y = 10
+print(x + y)
+20
+
+x,y,z = 10,20,30
+print(x)
+10
+print(y)
+20
+print(z)
+30
+
+
+variables must be assigned before they are used.
+
+
+Variables can be assigned to other variables
+=================================================
+x = 10
+y = 7
+x = y
+print (x)
+7
+
+
+Naming restrictions for variables
+================================================
+1. Variable names can start with letter or underscore
+2. Varable names can be made of letter, number or underscores
+3. Varibale names are case sensitive
+
+
+Variable Naming Conventions
+=======================================================
+In python, 
+We prefer snake case to name variables
+snake_case = 10 -> prefrred
+camelCase = 5 -> not preferred
+
+Capital snake case is used to name constansts
+PI=3.14
+CAP_SNAKE_CASE = 10
+
+
+Upper camel case is used to name class
+
+
+Variables starting and ending with two _ are supposed to be private or left alone
+__dont_touch__
+
+
+
+Data Types
+================================================================================
+
+Common Python Datatypes
+=========================
+bool -> True or False (notice T and F are capitals in python)
+int  -> 1,2,3
+str  -> "hello", "Hi"
+list -> ordered sequence of values of other datatypes [1,2,3] or ["a","b", "c"]
+dict -> collection of key values {"first_name":"akshay", "last_name":"tiwari"}
+
+
+
+Dynamic Typing
+===============================================================================
+Python allows variables to change types, this is called dynamic typing
+
+a = True
+a = "Hello"
+a = 3.14
+a = None
+
+
+None
+===============================================================================
+In python None is a way to represent nothingness like null in Java.
+type(None)
+<class 'NoneType'>
+
+
+
+Strings
+==============================================================================
+
+How to declare strings?
+================================
+my_first_str = "abc"
+my_second_str = 'xyz'
+my_third_string = "he said 'hello there!!'"
+my_fourth_string = 'he said "hello there!!"'
+
+Number of quotes does not matter
+
+Escape Sequences
+==================================
+\n 	-> new line
+\\  -> back slash
+\b  -> backspace
+\"  -> quotes
+\'  -> single quote
+
+
+String Concatenation
+===================================
+
+a = "abc"
+b = "pqr"
+c = a + b
+print(c)
+abcpqr
+
+int and str cannot be concatenated
+
+>>> 8 + "hello"
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+
+
+
+Formatting Strings
+=============================================================
+F-Strings
+----------------------------------
+x = 10
+formatted_x = f"I've told you {x} times already"
+formatted_x1 = f"I've told you {x + 2} times already"
+
+.format
+----------------------------------
+x=10
+formatted = "I've told you {} times already".format(10)
+
+
+% Operator (deprecated)
+----------------------------------
+x=10
+formatted = "I've told you %d times already" %(x)
+
+
+Accessing characters in str
+=====================================================
+"lol"[1]
+'o'
+
+name = "Hello"
+name[1]
+'e'
+name[-1]
+'o'
+
+
+Converting Datatypes
+=====================================================
+
+dec = 3.14
+integer = int(dec)
+3
+
+my_list = ["a", "b", "c"]

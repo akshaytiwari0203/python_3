@@ -1,3 +1,5 @@
+http://python.slides.com/colt/oop-21
+
 Types of Mathematical Datatypes
 ===================================================
 Two main types of numbers:
