@@ -1,0 +1,60 @@
+Slides : http://python.slides.com/colt/variables-and-data-types
+
+
+Booleaan Expressions:
+================================================================
+
+Conditioal if
+---------------------
+
+if name == "A":
+	do something
+elif name == "B":
+	do something
+else:
+	do something
+	
+	
+Truthiness
+=================================================================
+All conditionals checks resolve to True or False
+
+
+None,zero, empty strings, empty objects evaluate to zero
+
+
+
+Comparison Operators:
+=================================================================
+==
+>
+<
+!=
+>=
+<=
+
+
+Logical Operators
+=================================================================
+and
+or
+not
+
+
+is vs. ==
+=================================================================
+is is used to test for equality
+
+a=1
+a==1 : True
+a is 1 : True
+
+a = [1,2,3]
+b = [1,2,3]
+c = b
+
+a==b : True
+a is b : False
+c is b : True
+
+is checks if a and b are at same memory location
