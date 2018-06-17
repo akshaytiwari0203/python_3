@@ -1,0 +1,26 @@
+for loops
+==================================
+
+for item in iterrable_object:
+	do something
+	
+Iterable objects are lists, str, ranges
+
+
+ranges
+---------------------------------------
+range is used to genereate immutable sequence of numbers
+
+
+range(7) : gives integers from 0 to 6
+range(1,8) : gives integers from 1 to 7
+range(1,10,2) : gives 1,3,5,7,9
+range(7,0,-1) gives 7,6,5,4,3,2,1
+
+
+
+while loops
+========================================
+
+while <boolean expression>:
+	do something
